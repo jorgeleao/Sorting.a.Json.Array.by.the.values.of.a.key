@@ -34,7 +34,7 @@ O processo de ordenamento deve ignorar os espaços em branco na frente dos valor
 Se houver um elemento do array sem a chave “aKey”, o objeto json será excluido da saída ordenada.
 
 A saída do ordenamento foi:
-
+```javascript
 [
   {"aKey":"   00valor5","zzz":"yyy"},
   {"aKey":" valor*1","zzz":"yyy"},
@@ -52,6 +52,7 @@ A saída do ordenamento foi:
   {"aKey":" valor9","zzz":"yyy"},
   null
 ]
+```
 
 Os valores da chave “aKey” nos objetos do array foram trimmed, toUpperCase e tiveram os diacríticos (acentos, cedilha, etc) removidos.
 
