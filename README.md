@@ -58,16 +58,30 @@ Os valores da chave “aKey” nos objetos do array foram trimmed, toUpperCase e
 Uma listagem destas chaves modificadas, que foram usadas para o ordenamento, é:
 
 00VALOR5
+
 VALOR*1
+
 VALOR+1
+
 VALOR-1
+
 VALOR1
+
 VALOR2
+
 VALOR4
+
 VALOR5
+
 VALOR6
+
 VALOR7 ABRAHAM UBER
+
 VALOR7 ABRAHAO UBER
+
 VALOR7 ABRAHAO UBER2
+
 VALOR8
+
 VALOR9
+
