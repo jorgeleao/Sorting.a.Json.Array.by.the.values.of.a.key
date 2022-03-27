@@ -26,8 +26,6 @@ Exemplo:
   ]
 ```  
 
-Observe que a linha em amarelo não possui a chave “aKey”.
-
 Supõe-se o caso geral. em que a posição do par “key:value” em cada objeto do array é arbitrária e irrelevante.
 
 O processo de ordenamento deve ignorar os espaços em branco na frente dos valores, mas não alterá-los.
