@@ -35,23 +35,23 @@ Se houver um elemento do array sem a chave “aKey”, o objeto json será exclu
 
 A saída do ordenamento foi:
 
-  [
-    {"aKey":"   00valor5","zzz":"yyy"},
-    {"aKey":" valor*1","zzz":"yyy"},
-    {"aKey":" valor+1","zzz":"yyy"},
-    {"aKey":" valor-1","zzz":"yyy"},
-    {"aKey":" valor1","zzz":"yyy"},
-    {"aKey":"  valor2","zzz":"yyy"},
-    {"aKey":" valor4","zzz":"yyy"},
-    {"aKey":" valor5","zzz":"yyy"},
-    {"aKey":"valor6","zzz":"yyy"},
-    {"aKey":" valor7 Abrahãm über","zzz":"yyy"},
-    {"aKey":" valor7 Abraháo über","zzz":"yyy"},
-    {"aKey":" valor7 Abraháo uber2","zzz":"yyy"},
-    {"aKey":"  valor8","zzz":"yyy"},
-    {"aKey":" valor9","zzz":"yyy"},
-    null
-  ]
+[
+  {"aKey":"   00valor5","zzz":"yyy"},
+  {"aKey":" valor*1","zzz":"yyy"},
+  {"aKey":" valor+1","zzz":"yyy"},
+  {"aKey":" valor-1","zzz":"yyy"},
+  {"aKey":" valor1","zzz":"yyy"},
+  {"aKey":"  valor2","zzz":"yyy"},
+  {"aKey":" valor4","zzz":"yyy"},
+  {"aKey":" valor5","zzz":"yyy"},
+  {"aKey":"valor6","zzz":"yyy"},
+  {"aKey":" valor7 Abrahãm über","zzz":"yyy"},
+  {"aKey":" valor7 Abraháo über","zzz":"yyy"},
+  {"aKey":" valor7 Abraháo uber2","zzz":"yyy"},
+  {"aKey":"  valor8","zzz":"yyy"},
+  {"aKey":" valor9","zzz":"yyy"},
+  null
+]
 
 Os valores da chave “aKey” nos objetos do array foram trimmed, toUpperCase e tiveram os diacríticos (acentos, cedilha, etc) removidos.
 
