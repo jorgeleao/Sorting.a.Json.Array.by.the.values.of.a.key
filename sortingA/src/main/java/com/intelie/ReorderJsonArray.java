@@ -30,15 +30,14 @@ public class ReorderJsonArray {
                 .map(x -> {
                     if(x.getaKey()==null){
                         treeMap.put("zzzzzzzzzzzz", x);
-                        return null;
                     }else {
                         String str = x.getaKey()
                                 .trim()
                                 .toUpperCase(Locale.ROOT);
                         str = RemoveDiacriticals.remove(str);
                         treeMap.put(str, x);
-                        return null;
                     }
+                    return null;
                 })
                 .collect(Collectors.toList());
 
