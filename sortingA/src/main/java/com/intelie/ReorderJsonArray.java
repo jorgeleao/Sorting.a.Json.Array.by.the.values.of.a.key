@@ -1,11 +1,9 @@
 package com.intelie;
 
 import com.google.gson.Gson;
-
 import java.util.Locale;
 import java.util.TreeMap;
 import java.util.stream.Collectors;
-
 import static java.util.Arrays.stream;
 
 public class ReorderJsonArray {
@@ -15,7 +13,8 @@ public class ReorderJsonArray {
      * TODO:
      * - Must accept repeated key values
      * - Must process json objects of arbitrary structure/content
-     * - Must include objects without the reference key at the end
+     *   (not just the ones described by TwoKeyJsonObject)
+     * - Must include objects without the referenced key at the end
      * @param jsonString
      * @param key
      * @return
