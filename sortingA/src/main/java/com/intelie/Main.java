@@ -2,11 +2,13 @@ package com.intelie;
 
 import com.google.gson.Gson;
 
-import java.io.*;
-import java.util.*;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.Reader;
+import java.util.Locale;
+import java.util.TreeMap;
 import java.util.stream.Collectors;
-
-import static java.util.Arrays.stream;
 
 public class Main {
 
