@@ -32,10 +32,11 @@ public class ReorderJsonArray {
                     if(x.getaKey()==null){
                         treeMap.put("zzzzzzzzzzzz", x);
                     }else {
-                        String str = x.getaKey()
+                        String str = x.getaKey();
+                        str = RemoveDiacriticals
+                                .remove(str)
                                 .trim()
                                 .toUpperCase(Locale.ROOT);
-                        str = RemoveDiacriticals.remove(str);
                         treeMap.put(str, x);
                     }
                     return null;
