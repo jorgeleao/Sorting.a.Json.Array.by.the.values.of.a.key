@@ -86,4 +86,13 @@ VALOR8
 
 VALOR9
 
-
+     * TODO:
+     
+     * - Must accept repeated key values
+     
+     * - Must process json objects of arbitrary structure/content
+     
+     *   (not just the ones described by TwoKeyJsonObject)
+     
+     * - Must include objects without the referenced key at the end
+     
